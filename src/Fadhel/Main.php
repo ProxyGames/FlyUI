@@ -48,7 +48,7 @@ $this->getServer()->getPluginManager()->registerEvents($this,$this);
             switch($result){
                 case 0:
                     $player->sendMessage(TextFormat::GREEN . "Enabled flight mode!");
-                     $player->setAllowFlight(true);
+                    $player->setAllowFlight(true);
                 break;
                     
                 case 1:
